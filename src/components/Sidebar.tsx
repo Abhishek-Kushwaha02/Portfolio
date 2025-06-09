@@ -1,13 +1,13 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Home, User, Briefcase, Clock, Mail } from 'lucide-react';
 
 interface SidebarProps {
   activeSection: string;
+  mobile?: boolean;
 }
 
-const Sidebar = ({ activeSection }: SidebarProps) => {
+const Sidebar = ({ activeSection, mobile = false }: SidebarProps) => {
   const navItems = [
     { id: 'hero', icon: Home, label: 'Home' },
     { id: 'about', icon: User, label: 'About' },
@@ -24,9 +24,9 @@ const Sidebar = ({ activeSection }: SidebarProps) => {
   };
 
   return (
-    <div className="fixed left-0 top-0 h-full w-20 z-50">
+    <div className={mobile ? "w-full h-full" : "fixed left-0 top-0 h-full w-20 z-50 hidden md:block"}>
       {/* Main sidebar container with enhanced glassmorphism */}
-      <div className="h-full w-full bg-black/20 backdrop-blur-xl border-r border-white/10 shadow-2xl shadow-black/30">
+      <div className={mobile ? "h-full w-full bg-black/90 backdrop-blur-xl border-r border-white/10 shadow-2xl shadow-black/30" : "h-full w-full bg-black/20 backdrop-blur-xl border-r border-white/10 shadow-2xl shadow-black/30"}>
         {/* Navigation items container with increased spacing */}
         <div className="flex flex-col items-center justify-center h-full py-8 px-2 space-y-6">
           {navItems.map((item, index) => {

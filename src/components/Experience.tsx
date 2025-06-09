@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, MapPin, ExternalLink } from 'lucide-react';
@@ -26,7 +25,7 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="min-h-screen py-20 px-8">
+    <section id="experience" className="min-h-screen py-16 px-4 sm:px-6 md:px-8">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

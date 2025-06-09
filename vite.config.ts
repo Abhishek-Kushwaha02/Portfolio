@@ -8,6 +8,9 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    chunkSizeWarningLimit: 2500,
+    base: 'portfolio',
+
   },
   plugins: [
     react(),

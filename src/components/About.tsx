@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, Code, Palette, Zap } from 'lucide-react';
@@ -18,7 +17,7 @@ const About = () => {
   };
 
   return (
-    <section id="about" className="min-h-screen py-20 px-8">
+    <section id="about" className="min-h-screen py-16 px-4 sm:px-6 md:px-8">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -33,7 +32,7 @@ const About = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-purple-600 mx-auto rounded-full" />
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -116,7 +115,7 @@ const About = () => {
           className="mt-20"
         >
           <h3 className="text-3xl font-bold text-center mb-12 text-cyan-400">Tech Stack</h3>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {Object.entries(techStack).map(([category, technologies], index) => (
               <motion.div
                 key={category}
