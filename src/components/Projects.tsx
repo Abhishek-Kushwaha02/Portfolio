@@ -31,7 +31,7 @@ const Projects = () => {
       image: 'File/Gray Simple Shapes Blank A4 Document Landscape.jpg',
       technologies: ['Figma'],
       githubUrl: 'https://github.com/Abhishek-Kushwaha02/The-Stream',
-      liveUrl: '#',
+      liveUrl: 'https://www.figma.com/proto/795C9QhdaABgzoj8We5vzA/The-Stream?node-id=204-3820&p=f&t=3NopankJZQKIz3Zi-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=204%3A3820',
       featured: false,
     },
     {
