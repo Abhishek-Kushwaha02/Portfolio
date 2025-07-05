@@ -20,8 +20,8 @@ const Projects = () => {
       description: 'This is a computer program designed to  interact with users through voice commands.',
       image: 'File/Screenshot 2025-05-04 221946.png?w=600&h=400&fit=crop',
       technologies: ['Python', 'Sqlite3', 'Pvporcuipine' , 'Pyttsx3' , 'Html' , 'CSS' , 'JS'],
-      githubUrl: '#',
-      liveUrl: '#',
+      githubUrl: 'https://github.com/Abhishek-Kushwaha02/chatbot',
+      liveUrl: 'https://github.com/Abhishek-Kushwaha02/chatbot',
       featured: true,
     },
     {
@@ -144,13 +144,16 @@ const Projects = () => {
                       </motion.span>
                     ))}
                   </div>
-                  <motion.button
+                  <motion.a
+                    href={project.liveUrl !== '#' ? project.liveUrl : project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group/btn flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors"
                     whileHover={{ x: 5, z: 10 }}
                   >
                     View Project
                     <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                  </motion.button>
+                  </motion.a>
                 </motion.div>
               </div>
             </motion.div>
