@@ -12,8 +12,8 @@ const About = () => {
   const techStack = {
     Frontend: ['Html', 'CSS', 'JS', 'React js', 'Bootstrap'],
     Design: ['Wireframing', 'UI Design', 'Prototyping', 'Typography', 'Color Theory'],
-    AI_ML: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'NLTL/spacy','Huggingface Transformers'],
-    Tools: ['Git', 'Github', 'Figma','Adobe XD', 'Google Collab', 'Jupyter Notebook', 'VS Code'],
+    AI_ML: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'NLTK/spaCy','Huggingface Transformers'],
+    Tools: ['Git', 'Github', 'Figma','Adobe XD', 'Google Collab', 'Jupyter Notebook', 'VS Code', 'Adobe After Effects', 'Adobe Premiere Pro'],
   };
 
   return (
