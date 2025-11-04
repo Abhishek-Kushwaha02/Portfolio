@@ -30,18 +30,29 @@ const Projects = () => {
       description: 'A UI/UX Design for a Streaming Web Application.The application was made with the user in mind, and its modern Figma-designed layout puts a focus on easy navigation, content finding, and personalized user experiences. ',
       image: 'File/Gray Simple Shapes Blank A4 Document Landscape.jpg',
       technologies: ['Figma'],
-      githubUrl: 'https://github.com/Abhishek-Kushwaha02/The-Stream',
+      githubUrl: 'https://www.behance.net/gallery/233738943/The-Stream-A-Video-Streaming-Platform',
       liveUrl: 'https://www.figma.com/proto/795C9QhdaABgzoj8We5vzA/The-Stream?node-id=204-3820&p=f&t=3NopankJZQKIz3Zi-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=204%3A3820',
       featured: false,
     },
     {
       id: 4,
-      title: 'Real Estate Website',
-      description: 'EstateVision connects you to stunning properties, premium listings, and trusted agents. It includes features like property search, detailed listings, maps, and contact options to help users find their dream home or list their property online.',
-      image: 'File/Screenshot 2025-06-04 023649.png?w=600&h=400&fit=crop',
-      technologies: ['React', 'Type Script', 'Html', 'Tailwind'],
+      title: 'VERREL - Clothing Brand UI/UX',
+      description: 'Verrel is a modern clothing brand that caters to all type fashion. The goal of this website design is to create an immersive shopping experience that reflects Verrel’s identity–bold, stylish, and customer-centric.',
+      image: 'File/Wireframe - 18.jpg',
+      technologies: ['Figma'],
       githubUrl: '#',
-      liveUrl: '#',
+      liveUrl: 'https://www.behance.net/gallery/235720927/VERREL-Clothing-Brand-UIUX',
+      featured: false,
+    },
+
+       {
+      id: 5,
+      title: 'Fit Flow - A Mobile Based Fitness App(UI/UX)',
+      description: 'A complete UI/UX Design of a workout tracker app focused on keeping track of your workout sessions and progress.',
+      image: 'File/Frame 248.png',
+      technologies: ['Figma'],
+      githubUrl: '#',
+      liveUrl: 'https://www.behance.net/gallery/235720927/VERREL-Clothing-Brand-UIUX',
       featured: false,
     },
   ];
@@ -87,17 +98,17 @@ const Projects = () => {
                   <motion.img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-48 sm:h-56 md:h-64 object-cover"
-                    whileHover={{ scale: 1.1 }}
+                    className="relative z-10 w-full h-48 sm:h-56 md:h-64 object-contain bg-black/30"
+                    whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.5 }}
                   />
                   <motion.div 
-                    className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    className="absolute inset-0 z-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                     initial={{ opacity: 0 }}
                     whileHover={{ opacity: 1 }}
                   />
                   <motion.div 
-                    className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    className="absolute top-4 right-4 z-20 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                     initial={{ y: -20, opacity: 0 }}
                     whileHover={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.1 }}
@@ -179,11 +190,21 @@ const Projects = () => {
             >
               <div className="bg-white/5 backdrop-blur-lg rounded-xl overflow-hidden border border-white/10 hover:border-purple-500/50 transition-all duration-300 transform-gpu hover:shadow-xl hover:shadow-purple-500/20">
                 <div className="relative overflow-hidden">
+                  {/* Blurred background using the same image (non-featured only) */}
+                  <motion.img
+                    src={project.image}
+                    alt=""
+                    aria-hidden
+                    className="absolute inset-0 -z-10 w-full h-full object-cover scale-110 blur-xl opacity-100 pointer-events-none"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1.0 }}
+                    transition={{ duration: 0.3 }}
+                  />
                   <motion.img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-36 sm:h-40 md:h-48 object-cover"
-                    whileHover={{ scale: 1.05 }}
+                    className="relative z-10 w-full h-36 sm:h-40 md:h-48 object-contain bg-black/30"
+                    whileHover={{ scale: 1.03 }}
                     transition={{ duration: 0.3 }}
                   />
                 </div>
