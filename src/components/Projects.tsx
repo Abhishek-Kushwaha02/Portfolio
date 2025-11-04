@@ -30,8 +30,8 @@ const Projects = () => {
       description: 'A UI/UX Design for a Streaming Web Application.The application was made with the user in mind, and its modern Figma-designed layout puts a focus on easy navigation, content finding, and personalized user experiences. ',
       image: 'File/Gray Simple Shapes Blank A4 Document Landscape.jpg',
       technologies: ['Figma'],
-      githubUrl: 'https://www.behance.net/gallery/233738943/The-Stream-A-Video-Streaming-Platform',
-      liveUrl: 'https://www.figma.com/proto/795C9QhdaABgzoj8We5vzA/The-Stream?node-id=204-3820&p=f&t=3NopankJZQKIz3Zi-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=204%3A3820',
+      githubUrl: '#',
+      liveUrl: 'https://www.behance.net/gallery/233738943/The-Stream-A-Video-Streaming-Platform',
       featured: false,
     },
     {
@@ -52,7 +52,7 @@ const Projects = () => {
       image: 'File/Frame 248.png',
       technologies: ['Figma'],
       githubUrl: '#',
-      liveUrl: 'https://www.behance.net/gallery/235720927/VERREL-Clothing-Brand-UIUX',
+      liveUrl: 'https://www.behance.net/gallery/237839193/Fit-Flow-A-Mobile-Based-Fitness-App(UIUX)',
       featured: false,
     },
   ];
