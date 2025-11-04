@@ -13,7 +13,7 @@ const About = () => {
     Frontend: ['Html', 'CSS', 'JS', 'React js', 'Bootstrap'],
     Design: ['Wireframing', 'UI Design', 'Prototyping', 'Typography', 'Color Theory'],
     AI_ML: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'NLTK/spaCy','Huggingface Transformers'],
-    Tools: ['Git', 'Github', 'Figma','Adobe XD', 'Google Collab', 'Jupyter Notebook', 'VS Code', 'Adobe After Effects', 'Adobe Premiere Pro'],
+    Tools: ['Git', 'Github', 'Figma','Adobe XD', 'Framer','Google Collab', 'Jupyter Notebook', 'VS Code', 'Adobe After Effects', 'Adobe Premiere Pro'],
   };
 
   return (
