@@ -3,6 +3,18 @@ import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
+const BehanceIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    aria-hidden="true"
+    focusable="false"
+    {...props}
+  >
+    <path d="M3.162 7.02h5.719c2.704 0 4.01 1.392 4.01 3.047 0 1.409-.855 2.53-2.089 2.906v.045c1.675.275 2.61 1.45 2.61 3.081 0 2.4-1.875 3.894-4.676 3.894H3.163V7.02Zm5.497 5.131c1.095 0 1.705-.601 1.705-1.498 0-.935-.611-1.475-1.705-1.475H5.688v2.973h2.971Zm.09 5.404c1.14 0 1.785-.621 1.785-1.574 0-.978-.646-1.551-1.785-1.551H5.688v3.125h3.061ZM19.494 9.011c2.546 0 4.121 1.618 4.121 4.167 0 .296-.022.553-.045.713h-6.167c.203 1.28 1.172 2.014 2.431 2.014.935 0 1.705-.469 2.056-1.225h1.604c-.469 1.732-1.92 2.924-3.66 2.924-2.374 0-4.01-1.75-4.01-4.304 0-2.52 1.636-4.289 4.17-4.289Zm-2.155 3.418h4.517c-.112-1.214-.879-2.055-2.215-2.055-1.303 0-2.168.857-2.302 2.055ZM15.39 7.117h4.84v1.351H15.39V7.117Z" />
+  </svg>
+);
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -49,7 +61,8 @@ const Contact = () => {
 
   const socialLinks = [
     { icon: Github, href: 'https://github.com/Abhishek-Kushwaha02', label: 'GitHub' },
-    { icon: Linkedin, href: 'www.linkedin.com/in/kushwaha-abhi', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/kushwaha-abhi/', label: 'LinkedIn' },
+    { icon: BehanceIcon, href: 'https://www.behance.net/abhishekay05', label: 'Behance' },
     // { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
   ];
 

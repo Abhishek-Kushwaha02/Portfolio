@@ -51,7 +51,7 @@ const About = () => {
               </p>
               
               <motion.a
-                  href="public\File\Resume_.pdf"
+                  href="public\File\Resume__.pdf"
                   download="My_Resume.pdf"
                  className="inline-flex items-center justify-center gap-3 px-6 py-3 w-fit bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg font-semibold text-white shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 group"
                   whileHover={{ scale: 1.05 }}
