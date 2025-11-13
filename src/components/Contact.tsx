@@ -62,7 +62,7 @@ const Contact = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/Abhishek-Kushwaha02', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/kushwaha-abhi/', label: 'LinkedIn' },
-    { icon: BehanceIcon, href: 'https://www.behance.net/abhishekay05', label: 'Behance' },
+    { icon: BehanceIcon, href: 'https://www.behance.net/abhi0', label: 'Behance' },
     // { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
   ];
 
