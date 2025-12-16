@@ -55,6 +55,16 @@ const Projects = () => {
       liveUrl: 'https://www.behance.net/gallery/237839193/Fit-Flow-A-Mobile-Based-Fitness-App(UIUX)',
       featured: false,
     },
+       {
+      id: 6,
+      title: 'FARMORA - Online Grocery Web Application(UI/UX)',
+      description: 'Farmora is a grocery application designed to make online grocery shopping simple, fast, and visually pleasant.',
+      image: 'File/Frame 1984078197.png',
+      technologies: ['Figma'],
+      githubUrl: '#',
+      liveUrl: 'https://www.behance.net/gallery/240402429/FARMORA-Online-Grocery-Web-Application(UIUX)',
+      featured: false,
+    },
   ];
 
   return (
