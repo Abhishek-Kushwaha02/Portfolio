@@ -38,7 +38,7 @@ const Projects = () => {
       id: 4,
       title: 'VERREL - Clothing Brand UI/UX',
       description: 'Verrel is a modern clothing brand that caters to all type fashion. The goal of this website design is to create an immersive shopping experience that reflects Verrel’s identity–bold, stylish, and customer-centric.',
-      image: 'File/Wireframe - 18.jpg',
+      image: 'File/Frame 1984078199.png',
       technologies: ['Figma'],
       githubUrl: '#',
       liveUrl: 'https://www.behance.net/gallery/235720927/VERREL-Clothing-Brand-UIUX',

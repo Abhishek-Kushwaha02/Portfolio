@@ -10,7 +10,7 @@ const Experience = () => {
       institution: 'Chandigarh University',
       location: 'Mohali , Punjab',
       period: '2023 - 2025',
-      description: 'I am currently pursuing my Masters in Computer Application with specialization in AI/ML with a CGPA of 7.1, focusing on advanced concepts in computer science, artificial intelligence, and machine learning, demonstrating my dedication to mastering these dynamic fields.',
+      description: 'I am currently pursuing my Masters in Computer Application with specialization in AI/ML with a CGPA of 7.0, focusing on advanced concepts in computer science, artificial intelligence, and machine learning, demonstrating my dedication to mastering these dynamic fields.',
       logo: '🎓',
     },
     {
