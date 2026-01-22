@@ -5,7 +5,7 @@ import { Download, Code, Palette, Zap } from 'lucide-react';
 const About = () => {
   const skills = [
     { name: 'UI/UX Design', level: 90, icon: Code, color: 'from-cyan-500 to-blue-500' },
-    { name: 'Frontend Development', level: 80, icon: Palette, color: 'from-purple-500 to-pink-500' },
+    { name: 'Frontend Development', level: 70, icon: Palette, color: 'from-purple-500 to-pink-500' },
     { name: 'AI/ML', level: 70, icon: Zap, color: 'from-green-500 to-teal-500' },
   ];
 
